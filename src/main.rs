@@ -1,10 +1,7 @@
 use std::env;
-use std::io::stdin;
-use std::io::{stdout, Write};
+use std::io::{stdin, stdout, Write};
 use std::path::Path;
-use std::process::Child;
-use std::process::Command;
-use std::process::Stdio;
+use std::process::{Child, Command, Stdio};
 
 fn main() {
     loop {
